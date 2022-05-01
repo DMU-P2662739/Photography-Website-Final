@@ -1,0 +1,230 @@
+body{
+  background-image: url(../IMG/Background_1.jpg);
+  background-size:cover;
+  background-repeat: no-repeat;
+margin: 0;
+}
+
+#titles{
+  justify-content: center;
+}
+#intro{
+  justify-content: right;
+  margin-left: 55%;
+}
+li,p{
+ font-family: futura-pt,sans-serif;
+ font-weight: 700;
+ font-style: italic;
+ font-size: 30px;
+}
+h1, h2, h3{
+  text-align:center;
+  font-family: ff-prater-block-web,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  justify-content: center;
+  margin-top: 20px;
+color: #b40000;
+position: static;
+}
+
+p{
+ text-align: center;
+ margin: 0px,10px,0px,10px;
+}
+h2{
+}
+.container{
+  background-color:#b40000;
+  opacity: 100%;
+  display: flex;
+  justify-content: left;
+  flex-direction:row;
+  position: fixed;
+  bottom: 0;
+  height: 110px;
+  width: 100%;
+
+}
+
+
+#logo{
+  height: 110px;
+}
+
+#menubar nav ul li{
+float:right;
+list-style: none;
+position:relative;
+right:20px;
+
+}
+nav li {
+  padding:35px;
+
+}
+nav
+
+#slider{
+width:67.5vw;
+height:35vw;
+  overflow: hidden;
+  position: relative;
+  left: 15%;
+  border:10px;
+  position: absolute;
+}
+#slider img{
+  width:50%;
+  position: absolute;
+  z-index: 0;
+  }
+
+#slide1{
+  animation: slide1 18s infinite;
+}
+#slide2{
+  animation: slide2 18s infinite;
+}
+#slide3{
+  animation: slide3 18s infinite;
+}
+#slide4{
+  animation: slide4 18s infinite;
+}
+#slide5{
+  animation: slide5 18s infinite;
+}
+#slide6{
+  animation: slide6 18s infinite;
+}
+@keyframes slide1{
+  0%{opacity:1}
+  16.7%{opacity:0 }
+  33.3%{opacity:0 }
+  50%{opacity:0 }
+  66.7%{opacity:0}
+  83.3%{opacity:0 }
+  100%{opacity:1}
+}
+@keyframes slide2{
+  0%{opacity:0}
+  16.7%{opacity:1}
+  33.3%{opacity:0 }
+  50%{opacity:0 }
+  66.7%{opacity:0 }
+  83.3%{opacity:0 }
+  100%{opacity:0}
+}
+@keyframes slide3{
+  0%{opacity:0}
+  16.7%{opacity:0 }
+  33.3%{opacity:1 }
+  50%{opacity:0 }
+  66.7%{opacity: 0}
+  83.3%{opacity:0 }
+  100%{opacity:0}
+}
+@keyframes slide4{
+  0%{opacity:0}
+  16.7%{opacity:0 }
+  33.3%{opacity:0 }
+  50%{opacity:1 }
+  66.7%{opacity:0 }
+  83.3%{opacity:0 }
+  100%{opacity:0}
+}
+@keyframes slide5{
+  0%{opacity:0}
+  16.7%{opacity:0 }
+  33.3%{opacity:0 }
+  50%{opacity:0 }
+  66.7%{opacity:1 }
+  83.3%{opacity:0 }
+  100%{opacity:0}
+}
+@keyframes slide6{
+  0%{opacity:0}
+  16.7%{opacity:0 }
+  33.3%{opacity:0 }
+  50%{opacity:0 }
+  66.7%{opacity:0 }
+  83.3%{opacity:1 }
+  100%{opacity:0}
+}
+#Photography{
+ display: flex;
+ flex-direction: row;
+ width: 98vw;
+ justify-content:center;
+ font-family: futura-pt-bold,sans-serif;
+ font-weight: 700;
+ font-style: italic;
+ font-size: 30px;
+}
+
+
+#Photography img{
+ width: 19vw;
+ margin:50px 30px 50px 30px;
+ border: solid 10px yellow;
+ border-radius: 100%;
+ box-shadow: 20px 20px 20px;
+ transition: width 3s;
+ transition-timing-function: ease-in-out;
+ transition-delay: 3s;
+}
+
+#Photography a{
+position: relative;
+left: 37%;
+bottom: 20px;
+font-size:40px;
+}
+#Photography #model{
+  transition: width 1s;
+  transition-timing-function: ease-in-out;
+}
+#model:hover{
+  width: 21vw;
+}
+#Photography #nature{
+  transition: width 1s;
+  transition-timing-function: ease-in-out;
+}
+#nature:hover{
+  width:21vw;
+}
+#Photography #other{
+  transition: width 1s;
+  transition-timing-function: ease-in-out;
+}
+#other:hover{
+  width:21vw;
+}
+.modelgal img,.naturegal img,.othergal img{
+  width: 16vw;
+  margin: 5px;
+}
+.modelgal,.naturegal,.othergal{
+ column-count: 4;
+ column-gap: 16px;
+
+
+}
+#ID p{
+  justify-content: left;
+font-size: 3vw;
+}
+#ID img{
+  width: 30vw;
+  float: right;
+  margin-right: 50px;
+
+
+}
+footer{
+  justify-content: center;
+  margin-top: 40px;
+}
